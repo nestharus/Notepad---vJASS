@@ -51,12 +51,9 @@ definitions.add(
 	new Function(
 		"CreepsOnMap",
 		"boolean",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(

@@ -1,293 +1,5 @@
 definitions.add(
 	new Function(
-		"ConvertRace",
-		"race",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertAllianceType",
-		"alliancetype",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertRacePref",
-		"racepreference",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertIGameState",
-		"igamestate",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertFGameState",
-		"fgamestate",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertPlayerState",
-		"playerstate",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertPlayerScore",
-		"playerscore",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertPlayerGameResult",
-		"playergameresult",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertUnitState",
-		"unitstate",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertAIDifficulty",
-		"aidifficulty",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertGameEvent",
-		"gameevent",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertPlayerEvent",
-		"playerevent",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertPlayerUnitEvent",
-		"playerunitevent",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertWidgetEvent",
-		"widgetevent",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertDialogEvent",
-		"dialogevent",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertUnitEvent",
-		"unitevent",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertLimitOp",
-		"limitop",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertUnitType",
-		"unittype",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertGameSpeed",
-		"gamespeed",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertPlacement",
-		"placement",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertStartLocPrio",
-		"startlocprio",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertGameDifficulty",
-		"gamedifficulty",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertGameType",
-		"gametype",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ConvertMapFlag",
-		"mapflag",
-		{"integer i"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    integer i: descr" 
-	));
-
-definitions.add(
-	new Function(
 		"ConvertMapVisibility",
 		"mapvisibility",
 		{"integer i"},
@@ -1136,24 +848,18 @@ definitions.add(
 	new Function(
 		"GetTeams",
 		"integer",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetPlayers",
 		"integer",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -1172,12 +878,9 @@ definitions.add(
 	new Function(
 		"GetGameTypeSelected",
 		"gametype",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -1196,60 +899,45 @@ definitions.add(
 	new Function(
 		"GetGamePlacement",
 		"placement",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetGameSpeed",
 		"gamespeed",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetGameDifficulty",
 		"gamedifficulty",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetResourceDensity",
 		"mapdensity",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetCreatureDensity",
 		"mapdensity",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -1550,12 +1238,9 @@ definitions.add(
 	new Function(
 		"CreateTimer",
 		"timer",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -1649,24 +1334,18 @@ definitions.add(
 	new Function(
 		"GetExpiredTimer",
 		"timer",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"CreateGroup",
 		"group",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -2010,12 +1689,9 @@ definitions.add(
 	new Function(
 		"CreateForce",
 		"force",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -2309,12 +1985,9 @@ definitions.add(
 	new Function(
 		"CreateRegion",
 		"region",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -2528,24 +2201,18 @@ definitions.add(
 	new Function(
 		"GetWorldBounds",
 		"rect",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"CreateTrigger",
 		"trigger",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -2637,120 +2304,90 @@ definitions.add(
 	new Function(
 		"GetFilterUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetEnumUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetFilterDestructable",
 		"destructable",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetEnumDestructable",
 		"destructable",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetFilterItem",
 		"item",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetEnumItem",
 		"item",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetFilterPlayer",
 		"player",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetEnumPlayer",
 		"player",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetTriggeringTrigger",
 		"trigger",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetTriggerEventId",
 		"eventid",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -2974,12 +2611,9 @@ definitions.add(
 	new Function(
 		"GetEventGameState",
 		"gamestate",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -2999,12 +2633,9 @@ definitions.add(
 	new Function(
 		"GetWinningPlayer",
 		"player",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -3025,24 +2656,18 @@ definitions.add(
 	new Function(
 		"GetTriggeringRegion",
 		"region",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetEnteringUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -3063,12 +2688,9 @@ definitions.add(
 	new Function(
 		"GetLeavingUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -3101,72 +2723,54 @@ definitions.add(
 	new Function(
 		"GetTriggeringTrackable",
 		"trackable",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetClickedButton",
 		"button",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetClickedDialog",
 		"dialog",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetTournamentFinishSoonTimeRemaining",
 		"real",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetTournamentFinishNowRule",
 		"integer",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetTournamentFinishNowPlayer",
 		"player",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -3185,12 +2789,9 @@ definitions.add(
 	new Function(
 		"GetSaveBasicFilename",
 		"string",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -3211,12 +2812,9 @@ definitions.add(
 	new Function(
 		"GetTriggerPlayer",
 		"player",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -3238,600 +2836,450 @@ definitions.add(
 	new Function(
 		"GetLevelingUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetLearningUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetLearnedSkill",
 		"integer",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetLearnedSkillLevel",
 		"integer",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetRevivableUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetRevivingUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetAttacker",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetRescuer",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetDyingUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetKillingUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetDecayingUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetSelectedUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetConstructingStructure",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetCancelledStructure",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetConstructedStructure",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetResearchingUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetResearched",
 		"integer",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetTrainedUnitType",
 		"integer",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetTrainedUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetDetectedUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetSummoningUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetSummonedUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetTransportUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetLoadedUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetSellingUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetSoldUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetBuyingUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetSoldItem",
 		"item",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetChangingUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetChangingUnitPrevOwner",
 		"player",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetManipulatingUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetManipulatedItem",
 		"item",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetOrderedUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetIssuedOrderId",
 		"integer",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetOrderPointX",
 		"real",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetOrderPointY",
 		"real",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetOrderPointLoc",
 		"location",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetOrderTarget",
 		"widget",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetOrderTargetDestructable",
 		"destructable",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetOrderTargetItem",
 		"item",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetOrderTargetUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetSpellAbilityUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetSpellAbilityId",
 		"integer",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetSpellAbility",
 		"ability",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetSpellTargetLoc",
 		"location",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetSpellTargetX",
 		"real",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetSpellTargetY",
 		"real",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetSpellTargetDestructable",
 		"destructable",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetSpellTargetItem",
 		"item",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetSpellTargetUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -3868,12 +3316,9 @@ definitions.add(
 	new Function(
 		"GetEventPlayerState",
 		"playerstate",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -3895,24 +3340,18 @@ definitions.add(
 	new Function(
 		"GetEventPlayerChatString",
 		"string",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetEventPlayerChatStringMatched",
 		"string",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -3932,12 +3371,9 @@ definitions.add(
 	new Function(
 		"GetTriggerUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -3960,12 +3396,9 @@ definitions.add(
 	new Function(
 		"GetEventUnitState",
 		"unitstate",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -3986,36 +3419,27 @@ definitions.add(
 	new Function(
 		"GetEventDamage",
 		"real",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetEventDamageSource",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetEventDetectingPlayer",
 		"player",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -4037,12 +3461,9 @@ definitions.add(
 	new Function(
 		"GetEventTargetUnit",
 		"unit",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -4201,24 +3622,18 @@ definitions.add(
 	new Function(
 		"TriggerSyncStart",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"TriggerSyncReady",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -4274,12 +3689,9 @@ definitions.add(
 	new Function(
 		"GetTriggerWidget",
 		"widget",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -4608,12 +4020,9 @@ definitions.add(
 	new Function(
 		"GetTriggerDestructable",
 		"destructable",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -5992,12 +5401,9 @@ definitions.add(
 	new Function(
 		"ClearSelection",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -7756,12 +7162,9 @@ definitions.add(
 	new Function(
 		"GetLocalPlayer",
 		"player",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -8278,12 +7681,9 @@ definitions.add(
 	new Function(
 		"IsFogMaskEnabled",
 		"boolean",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -8302,12 +7702,9 @@ definitions.add(
 	new Function(
 		"IsFogEnabled",
 		"boolean",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -8401,12 +7798,9 @@ definitions.add(
 	new Function(
 		"VersionGet",
 		"version",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -8474,12 +7868,9 @@ definitions.add(
 	new Function(
 		"ReloadGame",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -8510,12 +7901,9 @@ definitions.add(
 	new Function(
 		"ForceCampaignSelectScreen",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -8597,12 +7985,9 @@ definitions.add(
 	new Function(
 		"SyncSelections",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -8724,12 +8109,9 @@ definitions.add(
 	new Function(
 		"GetDefaultDifficulty",
 		"gamedifficulty",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -8773,24 +8155,18 @@ definitions.add(
 	new Function(
 		"DoNotSaveReplay",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"DialogCreate",
 		"dialog",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -8877,12 +8253,9 @@ definitions.add(
 	new Function(
 		"ReloadGameCachesFromDisk",
 		"boolean",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -9297,12 +8670,9 @@ definitions.add(
 	new Function(
 		"InitHashtable",
 		"hashtable",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -10733,12 +10103,9 @@ definitions.add(
 	new Function(
 		"CreateUnitPool",
 		"unitpool",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -10800,12 +10167,9 @@ definitions.add(
 	new Function(
 		"CreateItemPool",
 		"itempool",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -10877,12 +10241,9 @@ definitions.add(
 	new Function(
 		"ChooseRandomNPBuilding",
 		"integer",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -10942,12 +10303,9 @@ definitions.add(
 	new Function(
 		"ResetTerrainFog",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -11035,12 +10393,9 @@ definitions.add(
 	new Function(
 		"ClearTextMessages",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -11120,12 +10475,9 @@ definitions.add(
 	new Function(
 		"GetTimeOfDayScale",
 		"real",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -11305,24 +10657,18 @@ definitions.add(
 	new Function(
 		"ForceUICancel",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"DisplayLoadDialog",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -11353,12 +10699,9 @@ definitions.add(
 	new Function(
 		"CreateTextTag",
 		"texttag",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -11540,12 +10883,9 @@ definitions.add(
 	new Function(
 		"GetAllyColorFilterState",
 		"integer",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -11564,12 +10904,9 @@ definitions.add(
 	new Function(
 		"GetCreepCampFilterState",
 		"boolean",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -11655,12 +10992,9 @@ definitions.add(
 	new Function(
 		"CreateQuest",
 		"quest",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -11893,12 +11227,9 @@ definitions.add(
 	new Function(
 		"CreateDefeatCondition",
 		"defeatcondition",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -11930,24 +11261,18 @@ definitions.add(
 	new Function(
 		"FlashQuestDialogButton",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"ForceQuestDialogUpdate",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -12074,12 +11399,9 @@ definitions.add(
 	new Function(
 		"CreateLeaderboard",
 		"leaderboard",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -12442,12 +11764,9 @@ definitions.add(
 	new Function(
 		"CreateMultiboard",
 		"multiboard",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -12840,12 +12159,9 @@ definitions.add(
 	new Function(
 		"StopCamera",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -13004,12 +12320,9 @@ definitions.add(
 	new Function(
 		"CreateCameraSetup",
 		"camerasetup",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -13336,12 +12649,9 @@ definitions.add(
 	new Function(
 		"IsCineFilterDisplayed",
 		"boolean",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -13365,12 +12675,9 @@ definitions.add(
 	new Function(
 		"EndCinematicScene",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -13401,48 +12708,36 @@ definitions.add(
 	new Function(
 		"GetCameraBoundMinX",
 		"real",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetCameraBoundMinY",
 		"real",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetCameraBoundMaxX",
 		"real",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetCameraBoundMaxY",
 		"real",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -13461,96 +12756,72 @@ definitions.add(
 	new Function(
 		"GetCameraTargetPositionX",
 		"real",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetCameraTargetPositionY",
 		"real",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetCameraTargetPositionZ",
 		"real",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetCameraTargetPositionLoc",
 		"location",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetCameraEyePositionX",
 		"real",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetCameraEyePositionY",
 		"real",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetCameraEyePositionZ",
 		"real",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"GetCameraEyePositionLoc",
 		"location",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -13853,12 +13124,9 @@ definitions.add(
 	new Function(
 		"ClearMapMusic",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -13903,12 +13171,9 @@ definitions.add(
 	new Function(
 		"ResumeMusic",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -13940,12 +13205,9 @@ definitions.add(
 	new Function(
 		"EndThematicMusic",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -14038,12 +13300,9 @@ definitions.add(
 	new Function(
 		"VolumeGroupReset",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -14232,12 +13491,9 @@ definitions.add(
 	new Function(
 		"TerrainDeformStopAll",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -15173,24 +14429,18 @@ definitions.add(
 	new Function(
 		"IsNoVictoryCheat",
 		"boolean",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"IsNoDefeatCheat",
 		"boolean",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
@@ -15221,60 +14471,45 @@ definitions.add(
 	new Function(
 		"PreloadStart",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"PreloadRefresh",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"PreloadEndEx",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"PreloadGenClear",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(
 	new Function(
 		"PreloadGenStart",
 		"nothing",
-		{"nothing"},
+		{},
 		"\n"
 		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    nothing: descr" 
 	));
 
 definitions.add(

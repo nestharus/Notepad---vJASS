@@ -6,17 +6,73 @@
 using namespace std;
 
 void registerAINatives(DefinitionDB& definitions) {
-	/*
 	definitions.add(
 		new Function(
-			"name",
-			"returns",
-			{ "parameter" },
+			"GetPlayerUnitTypeCount",
+			"integer",
+			{"player p", "integer unitid"},
 			"\n"
 			"descr"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    name: descr"
+			"    player p: descr" "\n"
+			"    integer unitid: descr" 
 		));
-	*/
+
+	definitions.add(
+		new Function(
+			"GetUnitGoldCost",
+			"integer",
+			{"integer unitid"},
+			"\n"
+			"descr"
+			"\n\n"
+			"Parameters\n---------------------------------------------------------------------\n"
+			"    integer unitid: descr" 
+		));
+
+	definitions.add(
+		new Function(
+			"GetUnitWoodCost",
+			"integer",
+			{"integer unitid"},
+			"\n"
+			"descr"
+			"\n\n"
+			"Parameters\n---------------------------------------------------------------------\n"
+			"    integer unitid: descr" 
+		));
+
+	definitions.add(
+		new Function(
+			"GetUnitBuildTime",
+			"integer",
+			{"integer unitid"},
+			"\n"
+			"descr"
+			"\n\n"
+			"Parameters\n---------------------------------------------------------------------\n"
+			"    integer unitid: descr" 
+		));
+
+	definitions.add(
+		new Function(
+			"CreepsOnMap",
+			"boolean",
+			{},
+			"\n"
+			"descr"
+		));
+
+	definitions.add(
+		new Function(
+			"UnitAlive",
+			"boolean",
+			{"unit id"},
+			"\n"
+			"descr"
+			"\n\n"
+			"Parameters\n---------------------------------------------------------------------\n"
+			"    unit id: descr" 
+		));
 }
