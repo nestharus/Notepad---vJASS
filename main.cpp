@@ -6,6 +6,7 @@
 #include "natives.hpp"
 #include "bjs.hpp"
 #include "bj_constants.hpp"
+#include "ai_natives.hpp"
 
 using namespace std;
 
@@ -32,6 +33,7 @@ int main(int argc, char* argv[]) {
 		registerBJConstants(definitions);
 		registerNatives(definitions);
 		registerBJs(definitions);
+		registerAINatives(definitions);
 
 		defnDump(definitions, file);
 
