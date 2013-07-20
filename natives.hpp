@@ -21,6 +21,23 @@ void registerNatives(DefinitionDB& definitions) {
 		));
 
 	definitions.add(
+        new Function(
+            "ConvertAllianceType",
+            "alliancetype",
+            { "integer i" },
+            "\n"
+			"Returns the alliancetype that corresponds to the given integer."
+            "\n\n"
+            "Alliance Type Constants: ALLIANCE_PASSIVE, ALLIANCE_HELP_REQUEST, ALLIANCE_HELP_RESPONSE,\n"
+			"                         ALLIANCE_SHARED_XP, ALLIANCE_SHARED_SPELLS, ALLIANCE_SHARED_VISION,\n"
+			"                         ALLIANCE_SHARED_CONTROL, ALLIANCE_SHARED_ADVANCED_CONTROL,\n"
+			"                         ALLIANCE_RESCUABLE, ALLIANCE_SHARED_VISION_FORCED"
+            "\n\n"
+            "Parameters\n---------------------------------------------------------------------\n"
+			"    integer i: The integer representation of the alliance type (see constants)."
+        ));
+
+	definitions.add(
 		new Function(
 		"ConvertLimitOp",
 			"limitop",

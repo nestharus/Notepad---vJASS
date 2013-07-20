@@ -1,7 +1,7 @@
 definitions.add(
 	new Function(
-		"GetPlayerUnitTypeCount"
-		"integer"
+		"GetPlayerUnitTypeCount",
+		"integer",
 		{"player p", "integer unitid"},
 		"\n"
 		"descr"
@@ -13,8 +13,8 @@ definitions.add(
 
 definitions.add(
 	new Function(
-		"GetUnitGoldCost"
-		"integer"
+		"GetUnitGoldCost",
+		"integer",
 		{"integer unitid"},
 		"\n"
 		"descr"
@@ -25,8 +25,8 @@ definitions.add(
 
 definitions.add(
 	new Function(
-		"GetUnitWoodCost"
-		"integer"
+		"GetUnitWoodCost",
+		"integer",
 		{"integer unitid"},
 		"\n"
 		"descr"
@@ -37,8 +37,8 @@ definitions.add(
 
 definitions.add(
 	new Function(
-		"GetUnitBuildTime"
-		"integer"
+		"GetUnitBuildTime",
+		"integer",
 		{"integer unitid"},
 		"\n"
 		"descr"
@@ -49,8 +49,8 @@ definitions.add(
 
 definitions.add(
 	new Function(
-		"CreepsOnMap"
-		"boolean"
+		"CreepsOnMap",
+		"boolean",
 		{"nothing"},
 		"\n"
 		"descr"
@@ -61,8 +61,8 @@ definitions.add(
 
 definitions.add(
 	new Function(
-		"UnitAlive"
-		"boolean"
+		"UnitAlive",
+		"boolean",
 		{"unit id"},
 		"\n"
 		"descr"
