@@ -40,13 +40,47 @@
 <KeyWord name="CAMERA_MARGIN_LEFT" />
 <KeyWord name="CAMERA_MARGIN_RIGHT" />
 <KeyWord name="CAMERA_MARGIN_TOP" />
+<KeyWord name="ConvertLimitOp" func="yes">
+	<Overload retVal="limitop" descr="
+Returns the limitop that corresponds to the given integer
+
+Limit Op Constants: LESS_THAN, LESS_THAN_OR_EQUAL, EQUAL, GREATER_THAN_OR_EQUAL, 
+                    GREATER_THAN, NOT_EQUAL
+
+Paramaters
+---------------------------------------------------------------------
+    integer i: The integer representation of the limit operation type (see constants).">
+		<Param name="integer i" />
+	</Overload>
+</KeyWord>
 <KeyWord name="ConvertRace" func="yes">
 	<Overload retVal="race" descr="
 Returns the race that corresponds to the given integer
 
+Race Constants: RACE_HUMAN, RACE_ORC, RACE_UNDEAD, RACE_NIGHTELF, RACE_DEMON, RACE_OTHER
+
 Paramaters
 ---------------------------------------------------------------------
     integer i: The integer representation of the race.">
+		<Param name="integer i" />
+	</Overload>
+</KeyWord>
+<KeyWord name="ConvertUnitType" func="yes">
+	<Overload retVal="unittype" descr="
+The integer representation of the unit type.
+
+Unit Type Constants: UNIT_TYPE_HERO, UNIT_TYPE_DEAD, UNIT_TYPE_STRUCTURE, 
+                     UNIT_TYPE_FLYING, UNIT_TYPE_GROUND, UNIT_TYPE_ATTACKS_FLYING, 
+                     UNIT_TYPE_ATTACKS_GROUND, UNIT_TYPE_MELEE_ATTACKER, 
+                     UNIT_TYPE_RANGED_ATTACKER, UNIT_TYPE_GIANT, UNIT_TYPE_SUMMONED, 
+                     UNIT_TYPE_STUNNED, UNIT_TYPE_PLAGUED, UNIT_TYPE_SNARED, UNIT_TYPE_UNDEAD, 
+                     UNIT_TYPE_MECHANICAL, UNIT_TYPE_PEON, UNIT_TYPE_SAPPER, UNIT_TYPE_TOWNHALL, 
+                     UNIT_TYPE_ANCIENT, UNIT_TYPE_TAUREN, UNIT_TYPE_POISONED, UNIT_TYPE_POLYMORPHED, 
+                     UNIT_TYPE_SLEEPING, UNIT_TYPE_RESISTANT, UNIT_TYPE_ETHEREAL, UNIT_TYPE_MAGIC_IMMUNE
+
+Paramaters
+---------------------------------------------------------------------
+    integer i: The unit type representation.">
 		<Param name="integer i" />
 	</Overload>
 </KeyWord>

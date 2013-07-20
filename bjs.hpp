@@ -15,8 +15,8 @@ void registerBJs(DefinitionDB& definitions) {
 			"\n"
 			"descr"
 			"\n\n"
-			"Paramaters\n---------------------------------------------------------------------\n"
-			"    name: descr."
+			"Parameters\n---------------------------------------------------------------------\n"
+			"    name: descr"
 		));
 	*/
 }
