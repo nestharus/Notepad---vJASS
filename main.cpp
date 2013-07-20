@@ -25,8 +25,7 @@ int main(int argc, char* argv[]) {
 
 	file.open(argv[1]);
 	if (file.is_open()) {
-		Alphabet alphabet(" `^_-,;:!?.'\"()[]{}@*/\\&#%+<=>|~$0123456789aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ");
-		DefinitionDB definitions(alphabet);
+		DefinitionDB definitions;
 
 		registerTypes(definitions);
 		registerConstants(definitions);

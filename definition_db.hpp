@@ -5,7 +5,6 @@
 
 #include "type.hpp"
 #include "quicksort.hpp"
-#include "Alphabet.hpp"
 
 using namespace std;
 
@@ -70,12 +69,8 @@ private:
 	};
 
 	DynamicArray arr;
-	Alphabet& alphabet;
 
 public:
-	DefinitionDB(Alphabet& alpha) : alphabet(alpha) {
-	}
-
 	~DefinitionDB() {
 		for (size_t i = 0; i < arr.pos; ++i) {
 			delete *arr[i];
@@ -87,7 +82,7 @@ public:
 	}
 
 	inline void sort() {
-		quicksort(arr.arr, alphabet.arr(), arr.pos);
+		quicksort(arr.arr, arr.pos);
 	}
 
 	inline void dump(ostream& stream) {
