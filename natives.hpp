@@ -6,6 +6,20 @@
 using namespace std;
 
 void registerNatives(DefinitionDB& definitions) {
+	/*
+	definitions.add(
+		new Function(
+		"name",
+		"returns",
+	{ "parameter" },
+	"\n"
+	"descr"
+	"\n\n"
+	"Paramaters\n---------------------------------------------------------------------\n"
+	"    name: descr."
+	));
+	*/
+
 	definitions.add(
 		new Function(
 			"ConvertRace", 
@@ -16,16 +30,5 @@ void registerNatives(DefinitionDB& definitions) {
 			"\n\n"
 			"Paramaters\n---------------------------------------------------------------------\n"
 			"    integer i: The integer representation of the race."
-		));
-	definitions.add(
-		new Function(
-			"name",
-			"returns",
-			{ "parameter" },
-			"\n"
-			"descr"
-			"\n\n"
-			"Paramaters\n---------------------------------------------------------------------\n"
-			"    name: descr."
 		));
 }

@@ -6,6 +6,7 @@
 using namespace std;
 
 void registerBJs(DefinitionDB& definitions) {
+	/*
 	definitions.add(
 		new Function(
 			"name",
@@ -17,4 +18,5 @@ void registerBJs(DefinitionDB& definitions) {
 			"Paramaters\n---------------------------------------------------------------------\n"
 			"    name: descr."
 		));
+	*/
 }
