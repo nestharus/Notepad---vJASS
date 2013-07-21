@@ -24613,6 +24613,7 @@ Parameters
 <KeyWord name="agent" />
 <KeyWord name="aidifficulty" />
 <KeyWord name="alliancetype" />
+<KeyWord name="array" />
 <KeyWord name="attacktype" />
 <KeyWord name="bj_ALLIANCE_ALLIED" />
 <KeyWord name="bj_ALLIANCE_ALLIED_ADVUNITS" />
@@ -25083,6 +25084,7 @@ Parameters
 <KeyWord name="boolexpr" />
 <KeyWord name="buff" />
 <KeyWord name="button" />
+<KeyWord name="call" />
 <KeyWord name="camerafield" />
 <KeyWord name="camerasetup" />
 <KeyWord name="code" />
@@ -25094,8 +25096,14 @@ Parameters
 <KeyWord name="dialogevent" />
 <KeyWord name="effect" />
 <KeyWord name="effecttype" />
+<KeyWord name="endfunction" />
+<KeyWord name="endlibrary" />
+<KeyWord name="endmethod" />
+<KeyWord name="endscope" />
+<KeyWord name="endstruct" />
 <KeyWord name="event" />
 <KeyWord name="eventid" />
+<KeyWord name="extends" />
 <KeyWord name="fgamestate" />
 <KeyWord name="filterEnumDestructablesInCircleBJ" />
 <KeyWord name="filterGetUnitsInRectOfPlayer" />
@@ -25108,6 +25116,7 @@ Parameters
 <KeyWord name="fogmodifier" />
 <KeyWord name="fogstate" />
 <KeyWord name="force" />
+<KeyWord name="function" />
 <KeyWord name="gamecache" />
 <KeyWord name="gamedifficulty" />
 <KeyWord name="gameevent" />
@@ -25124,6 +25133,8 @@ Parameters
 <KeyWord name="itempool" />
 <KeyWord name="itemtype" />
 <KeyWord name="leaderboard" />
+<KeyWord name="library" />
+<KeyWord name="library_once" />
 <KeyWord name="lightning" />
 <KeyWord name="limitop" />
 <KeyWord name="location" />
@@ -25132,8 +25143,12 @@ Parameters
 <KeyWord name="mapflag" />
 <KeyWord name="mapsetting" />
 <KeyWord name="mapvisibility" />
+<KeyWord name="method" />
 <KeyWord name="multiboard" />
 <KeyWord name="multiboarditem" />
+<KeyWord name="nothing" />
+<KeyWord name="onDestroy" />
+<KeyWord name="onInit" />
 <KeyWord name="pathingtype" />
 <KeyWord name="placement" />
 <KeyWord name="player" />
@@ -25144,6 +25159,8 @@ Parameters
 <KeyWord name="playerslotstate" />
 <KeyWord name="playerstate" />
 <KeyWord name="playerunitevent" />
+<KeyWord name="private" />
+<KeyWord name="public" />
 <KeyWord name="quest" />
 <KeyWord name="questitem" />
 <KeyWord name="race" />
@@ -25152,10 +25169,17 @@ Parameters
 <KeyWord name="real" />
 <KeyWord name="rect" />
 <KeyWord name="region" />
+<KeyWord name="requires" />
+<KeyWord name="return" />
+<KeyWord name="returns" />
+<KeyWord name="scope" />
 <KeyWord name="sound" />
 <KeyWord name="soundtype" />
 <KeyWord name="startlocprio" />
+<KeyWord name="static" />
 <KeyWord name="string" />
+<KeyWord name="struct" />
+<KeyWord name="takes" />
 <KeyWord name="terraindeformation" />
 <KeyWord name="texmapflags" />
 <KeyWord name="texttag" />
@@ -25171,6 +25195,7 @@ Parameters
 <KeyWord name="unitpool" />
 <KeyWord name="unitstate" />
 <KeyWord name="unittype" />
+<KeyWord name="uses" />
 <KeyWord name="version" />
 <KeyWord name="volumegroup" />
 <KeyWord name="weapontype" />

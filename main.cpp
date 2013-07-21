@@ -7,6 +7,7 @@
 #include "bjs.hpp"
 #include "bj_constants.hpp"
 #include "ai_natives.hpp"
+#include "keywords.hpp"
 
 using namespace std;
 
@@ -34,6 +35,7 @@ int main(int argc, char* argv[]) {
 		registerNatives(definitions);
 		registerBJs(definitions);
 		registerAINatives(definitions);
+		registerKeywords(definitions);
 
 		defnDump(definitions, file);
 
