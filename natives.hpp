@@ -344,10 +344,10 @@ void registerNatives(DefinitionDB& definitions) {
 			"mapvisibility",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the mapvisibility that corresponds to the given integer."
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the map visibility." 
 		));
 
 	definitions.add(
@@ -356,10 +356,10 @@ void registerNatives(DefinitionDB& definitions) {
 			"mapsetting",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the mapsetting that corresponds to the given integer."
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the map setting." 
 		));
 
 	definitions.add(
@@ -368,10 +368,12 @@ void registerNatives(DefinitionDB& definitions) {
 			"mapdensity",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the mapdensity that corresponds to the given integer."
+			"\n\n"
+			"Map Density Constants: MAP_DENSITY_NONE, MAP_DENSITY_LIGHT, MAP_DENSITY_MEDIUM, MAP_DENSITY_HEAVY"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the map density (see constants)."
 		));
 
 	definitions.add(
@@ -380,10 +382,13 @@ void registerNatives(DefinitionDB& definitions) {
 			"mapcontrol",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the mapcontrol that corresponds to the given integer."
+			"\n\n"
+			"Map Control Constants: MAP_CONTROL_USER, MAP_CONTROL_COMPUTER, MAP_CONTROL_RESCUABLE,\n"
+			"                       MAP_CONTROL_NEUTRAL, MAP_CONTROL_CREEP, MAP_CONTROL_NONE"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the map control (see constants)."
 		));
 
 	definitions.add(
@@ -392,10 +397,15 @@ void registerNatives(DefinitionDB& definitions) {
 			"playercolor",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the playercolor that corresponds to the given integer."
+			"\n\n"
+			"Player Color Constants: PLAYER_COLOR_RED, PLAYER_COLOR_BLUE, PLAYER_COLOR_CYAN, PLAYER_COLOR_PURPLE,\n"
+			"                        PLAYER_COLOR_YELLOW, PLAYER_COLOR_ORANGE, PLAYER_COLOR_GREEN,\n"
+			"                        PLAYER_COLOR_PINK, PLAYER_COLOR_LIGHT_GRAY, PLAYER_COLOR_LIGHT_BLUE,\n"
+			"                        PLAYER_COLOR_AQUA, PLAYER_COLOR_BROWN"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the player color (see constants)."
 		));
 
 	definitions.add(
@@ -404,10 +414,12 @@ void registerNatives(DefinitionDB& definitions) {
 			"playerslotstate",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the playerslotstate that corresponds to the given integer."
+			"\n\n"
+			"Player Slot State Constants: PLAYER_SLOT_STATE_EMPTY, PLAYER_SLOT_STATE_PLAYING, PLAYER_SLOT_STATE_LEFT"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the player slot state type (see constants)."
 		));
 
 	definitions.add(
@@ -416,10 +428,15 @@ void registerNatives(DefinitionDB& definitions) {
 			"volumegroup",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the volumegroup that corresponds to the given integer."
+			"\n\n"
+			"Volume Group Constants: SOUND_VOLUMEGROUP_UNITMOVEMENT, SOUND_VOLUMEGROUP_UNITSOUNDS,\n"
+			"                               SOUND_VOLUMEGROUP_COMBAT, SOUND_VOLUMEGROUP_SPELLS,\n"
+			"                               SOUND_VOLUMEGROUP_UI, SOUND_VOLUMEGROUP_MUSIC,\n"
+			"                               SOUND_VOLUMEGROUP_AMBIENTSOUNDS, SOUND_VOLUMEGROUP_FIRE"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the volume group type (see constants)."
 		));
 
 	definitions.add(
@@ -428,10 +445,14 @@ void registerNatives(DefinitionDB& definitions) {
 			"camerafield",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the camerafield that corresponds to the given integer."
+			"\n\n"
+			"Camera Field Constants: CAMERA_FIELD_TARGET_DISTANCE, CAMERA_FIELD_FARZ, CAMERA_FIELD_ANGLE_OF_ATTACK,\n"
+			"                        CAMERA_FIELD_FIELD_OF_VIEW, CAMERA_FIELD_ROLL, CAMERA_FIELD_ROTATION,\n"
+			"                        CAMERA_FIELD_ZOFFSET"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the camera field (see constants)."
 		));
 
 	definitions.add(
@@ -440,10 +461,13 @@ void registerNatives(DefinitionDB& definitions) {
 			"blendmode",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the blendmode that corresponds to the given integer."
+			"\n\n"
+			"Blend Mode Constants: BLEND_MODE_NONE, BLEND_MODE_DONT_CARE, BLEND_MODE_KEYALPHA, BLEND_MODE_BLEND,\n"
+			"                      BLEND_MODE_ADDITIVE, BEND_MODE_MODULATE, BLEND_MODE_MODULATE_2X"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the blend mode (see constants)."
 		));
 
 	definitions.add(
@@ -452,10 +476,12 @@ void registerNatives(DefinitionDB& definitions) {
 			"raritycontrol",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the raritycontrol that corresponds to the given integer."
+			"\n\n"
+			"Rarity Control Constants: RARITY_FREQUENT, RARITY_RARE"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the rarity control type (see constants)."
 		));
 
 	definitions.add(
@@ -464,10 +490,13 @@ void registerNatives(DefinitionDB& definitions) {
 			"texmapflags",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the texmapflags that corresponds to the given integer."
+			"\n\n"
+			"Texture Map Flag Constants: TEXMAP_FLAG_NONE, TEXMAP_FLAG_WRAP_U, TEXMAP_FLAG_WRAP_V,\n"
+			"                            TEXMAP_FLAG_WRAP_UV"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the texture map flag type (see constants)."
 		));
 
 	definitions.add(
@@ -476,10 +505,12 @@ void registerNatives(DefinitionDB& definitions) {
 			"fogstate",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the fogstate that corresponds to the given integer."
+			"\n\n"
+			"Fog State Constants: FOG_OF_WAR_MASKED, FOG_OF_WAR_FOGGED, FOG_OF_WAR_VISIBLE"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the fog state (see constants)."
 		));
 
 	definitions.add(
@@ -488,10 +519,14 @@ void registerNatives(DefinitionDB& definitions) {
 			"effecttype",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the effecttype that corresponds to the given integer."
+			"\n\n"
+			"Effect Type Constants: EFFECT_TYPE_EFFECT, EFFECT_TYPE_TARGET, EFFECT_TYPE_CASTER,\n"
+			"                       EFFECT_TYPE_SPECIAL, EFFECT_TYPE_AREA_EFFECT, EFFECT_TYPE_MISSILE,\n"
+			"                       EFFECT_TYPE_LIGHTNING"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the effect type (see constants)."
 		));
 
 	definitions.add(
@@ -500,10 +535,12 @@ void registerNatives(DefinitionDB& definitions) {
 			"version",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the version that corresponds to the given integer."
+			"\n\n"
+			"Version Constants: VERSION_REIGN_OF_CHAOS, VERSION_FROZEN_THRONE"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the version type (see constants)."
 		));
 
 	definitions.add(
@@ -512,10 +549,16 @@ void registerNatives(DefinitionDB& definitions) {
 			"itemtype",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the itemtype that corresponds to the given integer."
+			"\n\n"
+			"Item Type Constants: ITEM_TYPE_PERMANENT, ITEM_TYPE_CHARGED, ITEM_TYPE_POWERUP,\n"
+			"                     ITEM_TYPE_ARTIFACT, ITEM_TYPE_PURCHASABLE, ITEM_TYPE_CAMPAIGN,\n"
+			"                     ITEM_TYPE_MISCELLANEOUS, ITEM_TYPE_UNKNOWN, ITEM_TYPE_ANY"
+			"\n\n"
+			"Depreciated Constants: ITEM_TYPE_TOME (replaced with ITEM_TYPE_POWERUP)"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the item type (see constants)."
 		));
 
 	definitions.add(
@@ -584,10 +627,12 @@ void registerNatives(DefinitionDB& definitions) {
 			"integer",
 			{"string orderIdString"},
 			"\n"
-			"descr"
+			"Takes the name of an order and returns its corresponding integer rawcode."
+			"    OrderId(\"absorb\") -> 852529\n\n"
+			"Search for \"[Repo] Order Ids\" at www.google.com for a complete list of orders."
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    string orderIdString: descr" 
+			"    string abilityIdString: The name of the order as a string (see repo)."
 		));
 
 	definitions.add(
@@ -596,10 +641,12 @@ void registerNatives(DefinitionDB& definitions) {
 			"string",
 			{"integer orderId"},
 			"\n"
-			"descr"
+			"Takes the rawcode of an order and returns its corresponding order name as a string."
+			"    OrderId2String(852529) -> \"absorb\"\n\n"
+			"Search for \"[Repo] Order Ids\" at www.google.com for a complete list of orders."
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer orderId: descr" 
+			"    integer orderId: The integer rawcode of the order (see repo)."
 		));
 
 	definitions.add(
@@ -608,10 +655,11 @@ void registerNatives(DefinitionDB& definitions) {
 			"integer",
 			{"string unitIdString"},
 			"\n"
-			"descr"
+			"Takes the name of a unit and returns its corresponding integer rawcode."
+			"    UnitId(\"footman\") -> 'hfoo'"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    string unitIdString: descr" 
+			"    string abilityIdString: The name of the unit as a string."
 		));
 
 	definitions.add(
@@ -620,10 +668,11 @@ void registerNatives(DefinitionDB& definitions) {
 			"string",
 			{"integer unitId"},
 			"\n"
-			"descr"
+			"Takes the rawcode of a unit and returns its corresponding unit name as a string."
+			"    UnitId2String('hfoo') -> \"footman\""
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer unitId: descr" 
+			"    integer unitId: The integer rawcode of the unit."
 		));
 
 	definitions.add(
@@ -632,10 +681,10 @@ void registerNatives(DefinitionDB& definitions) {
 			"integer",
 			{"string abilityIdString"},
 			"\n"
-			"descr"
+			"Takes the name of an ability and returns its corresponding integer rawcode."
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    string abilityIdString: descr" 
+			"    string abilityIdString: The name of the ability as a string."
 		));
 
 	definitions.add(
@@ -644,10 +693,10 @@ void registerNatives(DefinitionDB& definitions) {
 			"string",
 			{"integer abilityId"},
 			"\n"
-			"descr"
+			"Takes the rawcode of an ability and returns its corresponding ability name as a string."
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer abilityId: descr" 
+			"    integer abilityId: The integer rawcode of the ability."
 		));
 
 	definitions.add(
@@ -656,10 +705,10 @@ void registerNatives(DefinitionDB& definitions) {
 			"string",
 			{"integer objectId"},
 			"\n"
-			"descr"
+			"Looks up the \"name\" field for any object (unit, item, ability)."
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer objectId: descr" 
+			"    integer objectId: The raw code of the object to return the name of."
 		));
 
 	definitions.add(
@@ -668,10 +717,13 @@ void registerNatives(DefinitionDB& definitions) {
 			"real",
 			{"real degrees"},
 			"\n"
-			"descr"
+			"Converts degrees into radians. This is similar to multiplying the degree value by pi/180."
+			"\n\n"
+			"Note: This is slightly more accurate than multiplying the degree value by bj_PI/180.\n"
+			"bj_PI has a value of 3.14159.This native uses a pi value closer to 3.141592496."
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    real degrees: descr" 
+			"    real degrees: The degree input."
 		));
 
 	definitions.add(
@@ -680,10 +732,13 @@ void registerNatives(DefinitionDB& definitions) {
 			"real",
 			{"real radians"},
 			"\n"
-			"descr"
+			"Converts degrees into radians. This is similar to multiplying the degree value by 180/pi."
+			"\n\n"
+			"Note: This is slightly more accurate than multiplying the degree value by 180/bj_PI.\n"
+			"bj_PI has a value of 3.14159.This native uses a pi value closer to 3.141592496."
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    real radians: descr" 
+			"    real radians: The radian value input."
 		));
 
 	definitions.add(
@@ -692,10 +747,10 @@ void registerNatives(DefinitionDB& definitions) {
 			"real",
 			{"real radians"},
 			"\n"
-			"descr"
+			"Takes a real value input in radians and returns its sine value. The domain of the input is all real numbers and the range of the output is -1 to 1 inclusive."
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    real radians: descr" 
+			"    real radians: The input radians."
 		));
 
 	definitions.add(
@@ -704,10 +759,10 @@ void registerNatives(DefinitionDB& definitions) {
 			"real",
 			{"real radians"},
 			"\n"
-			"descr"
+			"Takes a real value input in radians and returns its cosine value. The domain of the input is all real numbers and the range of the output is -1 to 1 inclusive."
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    real radians: descr" 
+			"    real radians: The input radians."
 		));
 
 	definitions.add(
@@ -716,10 +771,12 @@ void registerNatives(DefinitionDB& definitions) {
 			"real",
 			{"real radians"},
 			"\n"
-			"descr"
+			"Takes a real value input in radians and returns its tangent value. The domain of the\n"
+			"input is all real numbers excluding multiples of pi/2*(1 + n) : -infinity < n < infinity\n"
+			"and the range of the output is all real numbers\n"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    real radians: descr" 
+			"    real radians: The input radians."
 		));
 
 	definitions.add(
@@ -728,10 +785,13 @@ void registerNatives(DefinitionDB& definitions) {
 			"real",
 			{"real y"},
 			"\n"
-			"descr"
+			"Takes a real input and returns its arcsine (inverse sine) value as an angle in radians.\n"
+			"The domain of the input is -1 to 1 and the range of the output is (-pi/2) to (pi/2).\n"
+			"If an invalid input is provided, the returned value will be 0."
+			
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    real y: descr" 
+			"    real y: The input value"
 		));
 
 	definitions.add(
@@ -740,10 +800,12 @@ void registerNatives(DefinitionDB& definitions) {
 			"real",
 			{"real x"},
 			"\n"
-			"descr"
+			"Takes a real input and returns its arccosine (inverse cosine) value as an angle in radians.\n"
+			"The domain of the input is -1 to 1 and the range of the output is (0) to (pi).\n"
+			"If an invalid input is provided, the returned value will be 0."
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    real x: descr" 
+			"    real x: The input value."
 		));
 
 	definitions.add(
@@ -752,10 +814,12 @@ void registerNatives(DefinitionDB& definitions) {
 			"real",
 			{"real x"},
 			"\n"
-			"descr"
+			"Takes a real value input and returns its arctangent (inverse tangent) as an angle in radians.\n"
+			"The domain of the input is all real numbers and the range of the output is (-pi/2) to (pi/2)\n"
+			"non-inclusive."
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    real x: descr" 
+			"    real x: The input value."
 		));
 
 	definitions.add(
@@ -764,11 +828,14 @@ void registerNatives(DefinitionDB& definitions) {
 			"real",
 			{"real y", "real x"},
 			"\n"
-			"descr"
+			"Performs Atan( y / x ). The domains of x and y are all real numbers. The range of\n"
+			"the output is (-pi/2) to (pi/2) non-inclusive."
+			"\n\n"
+			"Note: Use over Atan as Atan2 will handle all special cases."
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    real y: descr" "\n"
-			"    real x: descr" 
+			"    real y: The input y." "\n"
+			"    real x: The input x."
 		));
 
 	definitions.add(
@@ -777,10 +844,11 @@ void registerNatives(DefinitionDB& definitions) {
 			"real",
 			{"real x"},
 			"\n"
-			"descr"
+			"Performs sqrt( x ). The domain of x is all real numbers greater than or equal to 0.\n"
+			"The range of the output is all real numbers greater than or equal to 0."
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    real x: descr" 
+			"    real x: The input value." 
 		));
 
 	definitions.add(
@@ -789,11 +857,15 @@ void registerNatives(DefinitionDB& definitions) {
 			"real",
 			{"real x", "real power"},
 			"\n"
-			"descr"
+			"Performs ( x ^ power ) such that (x) is raised to the power of (power). The domain of (x)\n"
+			"and (power) are all real numbers. The range of the output is all real numbers greater than\n"
+			"or equal to 0."
+			"\n\n"
+			"Note: 0 to the power of 0 is undefined, Pow(0, 0) will return 1."
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    real x: descr" "\n"
-			"    real power: descr" 
+			"    real x: The input value." "\n"
+			"    real power: The exponent." 
 		));
 
 	definitions.add(
@@ -802,10 +874,13 @@ void registerNatives(DefinitionDB& definitions) {
 			"real",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Typecasts (i) to a real. This is useless as this can also be accomplished by\n"
+			"the operation (i + 0.), or, in the case of literal values, (literal.)\n"
+			"    5. == I2R(5) == (5 + 0.)\n"
+			"    I2R(i) == (i + 0.)"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The input value." 
 		));
 
 	definitions.add(
@@ -814,10 +889,10 @@ void registerNatives(DefinitionDB& definitions) {
 			"integer",
 			{"real r"},
 			"\n"
-			"descr"
+			"Typecasts (r) to an integer."
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    real r: descr" 
+			"    real r: The input value." 
 		));
 
 	definitions.add(
@@ -826,10 +901,11 @@ void registerNatives(DefinitionDB& definitions) {
 			"string",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the representation of (i) as a string.\n"
+			"    I2S(55) -> \"55\""
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The input value." 
 		));
 
 	definitions.add(
@@ -838,10 +914,13 @@ void registerNatives(DefinitionDB& definitions) {
 			"string",
 			{"real r"},
 			"\n"
-			"descr"
+			"Returns the representation of (r) as a string.\n"
+			"    R2S(55) -> \"55.000\""
+			"\n\n"
+			"Note: Always displays and rounds off to 3 decimal places."
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    real r: descr" 
+			"    real r: The input value." 
 		));
 
 	definitions.add(
@@ -850,12 +929,13 @@ void registerNatives(DefinitionDB& definitions) {
 			"string",
 			{"real r", "integer width", "integer precision"},
 			"\n"
-			"descr"
+			"Returns the representation of (r) as a string given a string length and a number of\n"
+			"decimals (between 0 and 9) to display. The value (r) is placed at the end of the string."
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    real r: descr" "\n"
-			"    integer width: descr" "\n"
-			"    integer precision: descr" 
+			"    real r: The input value." "\n"
+			"    integer width: The length of the string." "\n"
+			"    integer precision: Number of decimals to display." 
 		));
 
 	definitions.add(
@@ -864,10 +944,15 @@ void registerNatives(DefinitionDB& definitions) {
 			"integer",
 			{"string s"},
 			"\n"
-			"descr"
+			"Converts a string composed of digits into an integer of the same numerical value.\n"
+			"The conversion of the string will stop at the first occurance of a non-numeric\n"
+			"character. If the first character isn't numeric, 0 will be returned.\n"
+			"    S2I(\"a\") -> 0.000\n"
+			"    S2I(\"123\") -> 123.000\n"
+			"    S2I(\"12a3\") -> 12.000"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    string s: descr" 
+			"    string s: The input string." 
 		));
 
 	definitions.add(
@@ -876,10 +961,15 @@ void registerNatives(DefinitionDB& definitions) {
 			"real",
 			{"string s"},
 			"\n"
-			"descr"
+			"Converts a string composed of digits into a real of the same numerical value.\n"
+			"The conversion of the string will stop at the first occurance of a non-numeric\n"
+			"character. If the first character isn't numeric, 0 will be returned.\n"
+			"    S2R(\"a\") -> 0\n"
+			"    S2R(\"123\") -> 123\n"
+			"    S2R(\"12a3\") -> 12"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    string s: descr" 
+			"    string s: The input string."
 		));
 
 	definitions.add(
@@ -888,10 +978,11 @@ void registerNatives(DefinitionDB& definitions) {
 			"integer",
 			{"handle h"},
 			"\n"
-			"descr"
+			"Converts a handle into its integer representation. Useful with hashtables.\n"
+			"    call SaveInteger(GetHandleId(myUnit), myIndex1, myIndex2, myValue)"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    handle h: descr" 
+			"    handle h: The input handle." 
 		));
 
 	definitions.add(
@@ -900,12 +991,15 @@ void registerNatives(DefinitionDB& definitions) {
 			"string",
 			{"string source", "integer start", "integer end"},
 			"\n"
-			"descr"
+			"Returns a substring of (source).\n"
+			"    G r u n t\n"
+			"   0 1 2 3 4 5\n"
+			"   SubString(\"Grunt\", 0, 2) -> \"Gr\""
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    string source: descr" "\n"
-			"    integer start: descr" "\n"
-			"    integer end: descr" 
+			"    string source: The input string." "\n"
+			"    integer start: The start position of the input string (see example)." "\n"
+			"    integer end: The end position of the input string (see example)." 
 		));
 
 	definitions.add(
