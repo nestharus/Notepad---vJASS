@@ -24,21 +24,21 @@
 <KeyWord name="ATTACK_TYPE_SIEGE" />
 <KeyWord name="AbilityId" func="yes">
 	<Overload retVal="integer" descr="
-descr
+Takes the name of an ability and returns its corresponding integer rawcode.
 
 Parameters
 ---------------------------------------------------------------------
-    string abilityIdString: descr">
+    string abilityIdString: The name of the ability as a string.">
 		<Param name="string abilityIdString" />
 	</Overload>
 </KeyWord>
 <KeyWord name="AbilityId2String" func="yes">
 	<Overload retVal="string" descr="
-descr
+Takes the rawcode of an ability and returns its corresponding ability name as a string.
 
 Parameters
 ---------------------------------------------------------------------
-    integer abilityId: descr">
+    integer abilityId: The integer rawcode of the ability.">
 		<Param name="integer abilityId" />
 	</Overload>
 </KeyWord>
@@ -49,11 +49,13 @@ descr">
 </KeyWord>
 <KeyWord name="Acos" func="yes">
 	<Overload retVal="real" descr="
-descr
+Takes a real input and returns its arccosine (inverse cosine) value as an angle in radians.
+The domain of the input is -1 to 1 and the range of the output is (0) to (pi).
+If an invalid input is provided, the returned value will be 0.
 
 Parameters
 ---------------------------------------------------------------------
-    real x: descr">
+    real x: The input value.">
 		<Param name="real x" />
 	</Overload>
 </KeyWord>
@@ -655,11 +657,13 @@ Parameters
 </KeyWord>
 <KeyWord name="Asin" func="yes">
 	<Overload retVal="real" descr="
-descr
+Takes a real input and returns its arcsine (inverse sine) value as an angle in radians.
+The domain of the input is -1 to 1 and the range of the output is (-pi/2) to (pi/2).
+If an invalid input is provided, the returned value will be 0.
 
 Parameters
 ---------------------------------------------------------------------
-    real y: descr">
+    real y: The input value">
 		<Param name="real y" />
 	</Overload>
 </KeyWord>
@@ -675,22 +679,27 @@ Parameters
 </KeyWord>
 <KeyWord name="Atan" func="yes">
 	<Overload retVal="real" descr="
-descr
+Takes a real value input and returns its arctangent (inverse tangent) as an angle in radians.
+The domain of the input is all real numbers and the range of the output is (-pi/2) to (pi/2)
+non-inclusive.
 
 Parameters
 ---------------------------------------------------------------------
-    real x: descr">
+    real x: The input value.">
 		<Param name="real x" />
 	</Overload>
 </KeyWord>
 <KeyWord name="Atan2" func="yes">
 	<Overload retVal="real" descr="
-descr
+Performs Atan( y / x ). The domains of x and y are all real numbers. The range of
+the output is (-pi/2) to (pi/2) non-inclusive.
+
+Note: Use over Atan as Atan2 will handle all special cases.
 
 Parameters
 ---------------------------------------------------------------------
-    real y: descr
-    real x: descr">
+    real y: The input y.
+    real x: The input x.">
 		<Param name="real y" />
 		<Param name="real x" />
 	</Overload>
@@ -1533,21 +1542,28 @@ Parameters
 </KeyWord>
 <KeyWord name="ConvertBlendMode" func="yes">
 	<Overload retVal="blendmode" descr="
-descr
+Returns the blendmode that corresponds to the given integer.
+
+Blend Mode Constants: BLEND_MODE_NONE, BLEND_MODE_DONT_CARE, BLEND_MODE_KEYALPHA, BLEND_MODE_BLEND,
+                      BLEND_MODE_ADDITIVE, BEND_MODE_MODULATE, BLEND_MODE_MODULATE_2X
 
 Parameters
 ---------------------------------------------------------------------
-    integer i: descr">
+    integer i: The integer representation of the blend mode (see constants).">
 		<Param name="integer i" />
 	</Overload>
 </KeyWord>
 <KeyWord name="ConvertCameraField" func="yes">
 	<Overload retVal="camerafield" descr="
-descr
+Returns the camerafield that corresponds to the given integer.
+
+Camera Field Constants: CAMERA_FIELD_TARGET_DISTANCE, CAMERA_FIELD_FARZ, CAMERA_FIELD_ANGLE_OF_ATTACK,
+                        CAMERA_FIELD_FIELD_OF_VIEW, CAMERA_FIELD_ROLL, CAMERA_FIELD_ROTATION,
+                        CAMERA_FIELD_ZOFFSET
 
 Parameters
 ---------------------------------------------------------------------
-    integer i: descr">
+    integer i: The integer representation of the camera field (see constants).">
 		<Param name="integer i" />
 	</Overload>
 </KeyWord>
@@ -1573,11 +1589,15 @@ Parameters
 </KeyWord>
 <KeyWord name="ConvertEffectType" func="yes">
 	<Overload retVal="effecttype" descr="
-descr
+Returns the effecttype that corresponds to the given integer.
+
+Effect Type Constants: EFFECT_TYPE_EFFECT, EFFECT_TYPE_TARGET, EFFECT_TYPE_CASTER,
+                       EFFECT_TYPE_SPECIAL, EFFECT_TYPE_AREA_EFFECT, EFFECT_TYPE_MISSILE,
+                       EFFECT_TYPE_LIGHTNING
 
 Parameters
 ---------------------------------------------------------------------
-    integer i: descr">
+    integer i: The integer representation of the effect type (see constants).">
 		<Param name="integer i" />
 	</Overload>
 </KeyWord>
@@ -1593,11 +1613,13 @@ Parameters
 </KeyWord>
 <KeyWord name="ConvertFogState" func="yes">
 	<Overload retVal="fogstate" descr="
-descr
+Returns the fogstate that corresponds to the given integer.
+
+Fog State Constants: FOG_OF_WAR_MASKED, FOG_OF_WAR_FOGGED, FOG_OF_WAR_VISIBLE
 
 Parameters
 ---------------------------------------------------------------------
-    integer i: descr">
+    integer i: The integer representation of the fog state (see constants).">
 		<Param name="integer i" />
 	</Overload>
 </KeyWord>
@@ -1663,11 +1685,17 @@ Parameters
 </KeyWord>
 <KeyWord name="ConvertItemType" func="yes">
 	<Overload retVal="itemtype" descr="
-descr
+Returns the itemtype that corresponds to the given integer.
+
+Item Type Constants: ITEM_TYPE_PERMANENT, ITEM_TYPE_CHARGED, ITEM_TYPE_POWERUP,
+                     ITEM_TYPE_ARTIFACT, ITEM_TYPE_PURCHASABLE, ITEM_TYPE_CAMPAIGN,
+                     ITEM_TYPE_MISCELLANEOUS, ITEM_TYPE_UNKNOWN, ITEM_TYPE_ANY
+
+Depreciated Constants: ITEM_TYPE_TOME (replaced with ITEM_TYPE_POWERUP)
 
 Parameters
 ---------------------------------------------------------------------
-    integer i: descr">
+    integer i: The integer representation of the item type (see constants).">
 		<Param name="integer i" />
 	</Overload>
 </KeyWord>
@@ -1686,21 +1714,26 @@ Parameters
 </KeyWord>
 <KeyWord name="ConvertMapControl" func="yes">
 	<Overload retVal="mapcontrol" descr="
-descr
+Returns the mapcontrol that corresponds to the given integer.
+
+Map Control Constants: MAP_CONTROL_USER, MAP_CONTROL_COMPUTER, MAP_CONTROL_RESCUABLE,
+                       MAP_CONTROL_NEUTRAL, MAP_CONTROL_CREEP, MAP_CONTROL_NONE
 
 Parameters
 ---------------------------------------------------------------------
-    integer i: descr">
+    integer i: The integer representation of the map control (see constants).">
 		<Param name="integer i" />
 	</Overload>
 </KeyWord>
 <KeyWord name="ConvertMapDensity" func="yes">
 	<Overload retVal="mapdensity" descr="
-descr
+Returns the mapdensity that corresponds to the given integer.
+
+Map Density Constants: MAP_DENSITY_NONE, MAP_DENSITY_LIGHT, MAP_DENSITY_MEDIUM, MAP_DENSITY_HEAVY
 
 Parameters
 ---------------------------------------------------------------------
-    integer i: descr">
+    integer i: The integer representation of the map density (see constants).">
 		<Param name="integer i" />
 	</Overload>
 </KeyWord>
@@ -1724,21 +1757,21 @@ Parameters
 </KeyWord>
 <KeyWord name="ConvertMapSetting" func="yes">
 	<Overload retVal="mapsetting" descr="
-descr
+Returns the mapsetting that corresponds to the given integer.
 
 Parameters
 ---------------------------------------------------------------------
-    integer i: descr">
+    integer i: The integer representation of the map setting.">
 		<Param name="integer i" />
 	</Overload>
 </KeyWord>
 <KeyWord name="ConvertMapVisibility" func="yes">
 	<Overload retVal="mapvisibility" descr="
-descr
+Returns the mapvisibility that corresponds to the given integer.
 
 Parameters
 ---------------------------------------------------------------------
-    integer i: descr">
+    integer i: The integer representation of the map visibility.">
 		<Param name="integer i" />
 	</Overload>
 </KeyWord>
@@ -1767,11 +1800,16 @@ Parameters
 </KeyWord>
 <KeyWord name="ConvertPlayerColor" func="yes">
 	<Overload retVal="playercolor" descr="
-descr
+Returns the playercolor that corresponds to the given integer.
+
+Player Color Constants: PLAYER_COLOR_RED, PLAYER_COLOR_BLUE, PLAYER_COLOR_CYAN, PLAYER_COLOR_PURPLE,
+                        PLAYER_COLOR_YELLOW, PLAYER_COLOR_ORANGE, PLAYER_COLOR_GREEN,
+                        PLAYER_COLOR_PINK, PLAYER_COLOR_LIGHT_GRAY, PLAYER_COLOR_LIGHT_BLUE,
+                        PLAYER_COLOR_AQUA, PLAYER_COLOR_BROWN
 
 Parameters
 ---------------------------------------------------------------------
-    integer i: descr">
+    integer i: The integer representation of the player color (see constants).">
 		<Param name="integer i" />
 	</Overload>
 </KeyWord>
@@ -1807,11 +1845,13 @@ Parameters
 </KeyWord>
 <KeyWord name="ConvertPlayerSlotState" func="yes">
 	<Overload retVal="playerslotstate" descr="
-descr
+Returns the playerslotstate that corresponds to the given integer.
+
+Player Slot State Constants: PLAYER_SLOT_STATE_EMPTY, PLAYER_SLOT_STATE_PLAYING, PLAYER_SLOT_STATE_LEFT
 
 Parameters
 ---------------------------------------------------------------------
-    integer i: descr">
+    integer i: The integer representation of the player slot state type (see constants).">
 		<Param name="integer i" />
 	</Overload>
 </KeyWord>
@@ -1859,11 +1899,13 @@ Parameters
 </KeyWord>
 <KeyWord name="ConvertRarityControl" func="yes">
 	<Overload retVal="raritycontrol" descr="
-descr
+Returns the raritycontrol that corresponds to the given integer.
+
+Rarity Control Constants: RARITY_FREQUENT, RARITY_RARE
 
 Parameters
 ---------------------------------------------------------------------
-    integer i: descr">
+    integer i: The integer representation of the rarity control type (see constants).">
 		<Param name="integer i" />
 	</Overload>
 </KeyWord>
@@ -1891,11 +1933,14 @@ Parameters
 </KeyWord>
 <KeyWord name="ConvertTexMapFlags" func="yes">
 	<Overload retVal="texmapflags" descr="
-descr
+Returns the texmapflags that corresponds to the given integer.
+
+Texture Map Flag Constants: TEXMAP_FLAG_NONE, TEXMAP_FLAG_WRAP_U, TEXMAP_FLAG_WRAP_V,
+                            TEXMAP_FLAG_WRAP_UV
 
 Parameters
 ---------------------------------------------------------------------
-    integer i: descr">
+    integer i: The integer representation of the texture map flag type (see constants).">
 		<Param name="integer i" />
 	</Overload>
 </KeyWord>
@@ -1942,21 +1987,28 @@ Parameters
 </KeyWord>
 <KeyWord name="ConvertVersion" func="yes">
 	<Overload retVal="version" descr="
-descr
+Returns the version that corresponds to the given integer.
+
+Version Constants: VERSION_REIGN_OF_CHAOS, VERSION_FROZEN_THRONE
 
 Parameters
 ---------------------------------------------------------------------
-    integer i: descr">
+    integer i: The integer representation of the version type (see constants).">
 		<Param name="integer i" />
 	</Overload>
 </KeyWord>
 <KeyWord name="ConvertVolumeGroup" func="yes">
 	<Overload retVal="volumegroup" descr="
-descr
+Returns the volumegroup that corresponds to the given integer.
+
+Volume Group Constants: SOUND_VOLUMEGROUP_UNITMOVEMENT, SOUND_VOLUMEGROUP_UNITSOUNDS,
+                               SOUND_VOLUMEGROUP_COMBAT, SOUND_VOLUMEGROUP_SPELLS,
+                               SOUND_VOLUMEGROUP_UI, SOUND_VOLUMEGROUP_MUSIC,
+                               SOUND_VOLUMEGROUP_AMBIENTSOUNDS, SOUND_VOLUMEGROUP_FIRE
 
 Parameters
 ---------------------------------------------------------------------
-    integer i: descr">
+    integer i: The integer representation of the volume group type (see constants).">
 		<Param name="integer i" />
 	</Overload>
 </KeyWord>
@@ -2016,11 +2068,11 @@ Parameters
 </KeyWord>
 <KeyWord name="Cos" func="yes">
 	<Overload retVal="real" descr="
-descr
+Takes a real value input in radians and returns its cosine value. The domain of the input is all real numbers and the range of the output is -1 to 1 inclusive.
 
 Parameters
 ---------------------------------------------------------------------
-    real radians: descr">
+    real radians: The input radians.">
 		<Param name="real radians" />
 	</Overload>
 </KeyWord>
@@ -3144,11 +3196,14 @@ Parameters
 </KeyWord>
 <KeyWord name="Deg2Rad" func="yes">
 	<Overload retVal="real" descr="
-descr
+Converts degrees into radians. This is similar to multiplying the degree value by pi/180.
+
+Note: This is slightly more accurate than multiplying the degree value by bj_PI/180.
+bj_PI has a value of 3.14159.This native uses a pi value closer to 3.141592496.
 
 Parameters
 ---------------------------------------------------------------------
-    real degrees: descr">
+    real degrees: The degree input.">
 		<Param name="real degrees" />
 	</Overload>
 </KeyWord>
@@ -5431,11 +5486,12 @@ descr">
 </KeyWord>
 <KeyWord name="GetHandleId" func="yes">
 	<Overload retVal="integer" descr="
-descr
+Converts a handle into its integer representation. Useful with hashtables.
+    call SaveInteger(GetHandleId(myUnit), myIndex1, myIndex2, myValue)
 
 Parameters
 ---------------------------------------------------------------------
-    handle h: descr">
+    handle h: The input handle.">
 		<Param name="handle h" />
 	</Overload>
 </KeyWord>
@@ -6040,11 +6096,11 @@ descr">
 </KeyWord>
 <KeyWord name="GetObjectName" func="yes">
 	<Overload retVal="string" descr="
-descr
+Looks up the "name" field for any object (unit, item, ability).
 
 Parameters
 ---------------------------------------------------------------------
-    integer objectId: descr">
+    integer objectId: The raw code of the object to return the name of.">
 		<Param name="integer objectId" />
 	</Overload>
 </KeyWord>
@@ -8423,21 +8479,25 @@ Parameters
 </KeyWord>
 <KeyWord name="I2R" func="yes">
 	<Overload retVal="real" descr="
-descr
+Typecasts (i) to a real. This is useless as this can also be accomplished by
+the operation (i + 0.), or, in the case of literal values, (literal.)
+    5. == I2R(5) == (5 + 0.)
+    I2R(i) == (i + 0.)
 
 Parameters
 ---------------------------------------------------------------------
-    integer i: descr">
+    integer i: The input value.">
 		<Param name="integer i" />
 	</Overload>
 </KeyWord>
 <KeyWord name="I2S" func="yes">
 	<Overload retVal="string" descr="
-descr
+Returns the representation of (i) as a string.
+    I2S(55) -> "55"
 
 Parameters
 ---------------------------------------------------------------------
-    integer i: descr">
+    integer i: The input value.">
 		<Param name="integer i" />
 	</Overload>
 </KeyWord>
@@ -13274,21 +13334,25 @@ Parameters
 </KeyWord>
 <KeyWord name="OrderId" func="yes">
 	<Overload retVal="integer" descr="
-descr
+Takes the name of an order and returns its corresponding integer rawcode.    OrderId("absorb") -> 852529
+
+Search for "[Repo] Order Ids" at www.google.com for a complete list of orders.
 
 Parameters
 ---------------------------------------------------------------------
-    string orderIdString: descr">
+    string abilityIdString: The name of the order as a string (see repo).">
 		<Param name="string orderIdString" />
 	</Overload>
 </KeyWord>
 <KeyWord name="OrderId2String" func="yes">
 	<Overload retVal="string" descr="
-descr
+Takes the rawcode of an order and returns its corresponding order name as a string.    OrderId2String(852529) -> "absorb"
+
+Search for "[Repo] Order Ids" at www.google.com for a complete list of orders.
 
 Parameters
 ---------------------------------------------------------------------
-    integer orderId: descr">
+    integer orderId: The integer rawcode of the order (see repo).">
 		<Param name="integer orderId" />
 	</Overload>
 </KeyWord>
@@ -14080,12 +14144,16 @@ Parameters
 </KeyWord>
 <KeyWord name="Pow" func="yes">
 	<Overload retVal="real" descr="
-descr
+Performs ( x ^ power ) such that (x) is raised to the power of (power). The domain of (x)
+and (power) are all real numbers. The range of the output is all real numbers greater than
+or equal to 0.
+
+Note: 0 to the power of 0 is undefined, Pow(0, 0) will return 1.
 
 Parameters
 ---------------------------------------------------------------------
-    real x: descr
-    real power: descr">
+    real x: The input value.
+    real power: The exponent.">
 		<Param name="real x" />
 		<Param name="real power" />
 	</Overload>
@@ -14517,33 +14585,37 @@ Parameters
 </KeyWord>
 <KeyWord name="R2I" func="yes">
 	<Overload retVal="integer" descr="
-descr
+Typecasts (r) to an integer.
 
 Parameters
 ---------------------------------------------------------------------
-    real r: descr">
+    real r: The input value.">
 		<Param name="real r" />
 	</Overload>
 </KeyWord>
 <KeyWord name="R2S" func="yes">
 	<Overload retVal="string" descr="
-descr
+Returns the representation of (r) as a string.
+    R2S(55) -> "55.000"
+
+Note: Always displays and rounds off to 3 decimal places.
 
 Parameters
 ---------------------------------------------------------------------
-    real r: descr">
+    real r: The input value.">
 		<Param name="real r" />
 	</Overload>
 </KeyWord>
 <KeyWord name="R2SW" func="yes">
 	<Overload retVal="string" descr="
-descr
+Returns the representation of (r) as a string given a string length and a number of
+decimals (between 0 and 9) to display. The value (r) is placed at the end of the string.
 
 Parameters
 ---------------------------------------------------------------------
-    real r: descr
-    integer width: descr
-    integer precision: descr">
+    real r: The input value.
+    integer width: The length of the string.
+    integer precision: Number of decimals to display.">
 		<Param name="real r" />
 		<Param name="integer width" />
 		<Param name="integer precision" />
@@ -14610,11 +14682,14 @@ Parameters
 </KeyWord>
 <KeyWord name="Rad2Deg" func="yes">
 	<Overload retVal="real" descr="
-descr
+Converts degrees into radians. This is similar to multiplying the degree value by 180/pi.
+
+Note: This is slightly more accurate than multiplying the degree value by 180/bj_PI.
+bj_PI has a value of 3.14159.This native uses a pi value closer to 3.141592496.
 
 Parameters
 ---------------------------------------------------------------------
-    real radians: descr">
+    real radians: The radian value input.">
 		<Param name="real radians" />
 	</Overload>
 </KeyWord>
@@ -15470,21 +15545,31 @@ Parameters
 </KeyWord>
 <KeyWord name="S2I" func="yes">
 	<Overload retVal="integer" descr="
-descr
+Converts a string composed of digits into an integer of the same numerical value.
+The conversion of the string will stop at the first occurance of a non-numeric
+character. If the first character isn't numeric, 0 will be returned.
+    S2I("a") -> 0.000
+    S2I("123") -> 123.000
+    S2I("12a3") -> 12.000
 
 Parameters
 ---------------------------------------------------------------------
-    string s: descr">
+    string s: The input string.">
 		<Param name="string s" />
 	</Overload>
 </KeyWord>
 <KeyWord name="S2R" func="yes">
 	<Overload retVal="real" descr="
-descr
+Converts a string composed of digits into a real of the same numerical value.
+The conversion of the string will stop at the first occurance of a non-numeric
+character. If the first character isn't numeric, 0 will be returned.
+    S2R("a") -> 0
+    S2R("123") -> 123
+    S2R("12a3") -> 12
 
 Parameters
 ---------------------------------------------------------------------
-    string s: descr">
+    string s: The input string.">
 		<Param name="string s" />
 	</Overload>
 </KeyWord>
@@ -21199,11 +21284,11 @@ Parameters
 </KeyWord>
 <KeyWord name="Sin" func="yes">
 	<Overload retVal="real" descr="
-descr
+Takes a real value input in radians and returns its sine value. The domain of the input is all real numbers and the range of the output is -1 to 1 inclusive.
 
 Parameters
 ---------------------------------------------------------------------
-    real radians: descr">
+    real radians: The input radians.">
 		<Param name="real radians" />
 	</Overload>
 </KeyWord>
@@ -21233,11 +21318,12 @@ Parameters
 </KeyWord>
 <KeyWord name="SquareRoot" func="yes">
 	<Overload retVal="real" descr="
-descr
+Performs sqrt( x ). The domain of x is all real numbers greater than or equal to 0.
+The range of the output is all real numbers greater than or equal to 0.
 
 Parameters
 ---------------------------------------------------------------------
-    real x: descr">
+    real x: The input value.">
 		<Param name="real x" />
 	</Overload>
 </KeyWord>
@@ -21601,13 +21687,16 @@ Parameters
 </KeyWord>
 <KeyWord name="SubString" func="yes">
 	<Overload retVal="string" descr="
-descr
+Returns a substring of (source).
+    G r u n t
+   0 1 2 3 4 5
+   SubString("Grunt", 0, 2) -> "Gr"
 
 Parameters
 ---------------------------------------------------------------------
-    string source: descr
-    integer start: descr
-    integer end: descr">
+    string source: The input string.
+    integer start: The start position of the input string (see example).
+    integer end: The end position of the input string (see example).">
 		<Param name="string source" />
 		<Param name="integer start" />
 		<Param name="integer end" />
@@ -21743,11 +21832,14 @@ Parameters
 <KeyWord name="TRUE" />
 <KeyWord name="Tan" func="yes">
 	<Overload retVal="real" descr="
-descr
+Takes a real value input in radians and returns its tangent value. The domain of the
+input is all real numbers excluding multiples of pi/2*(1 + n) : -infinity < n < infinity
+and the range of the output is all real numbers
+
 
 Parameters
 ---------------------------------------------------------------------
-    real radians: descr">
+    real radians: The input radians.">
 		<Param name="real radians" />
 	</Overload>
 </KeyWord>
@@ -23670,11 +23762,11 @@ Parameters
 </KeyWord>
 <KeyWord name="UnitId" func="yes">
 	<Overload retVal="integer" descr="
-descr
+Takes the name of a unit and returns its corresponding integer rawcode.    UnitId("footman") -> 'hfoo'
 
 Parameters
 ---------------------------------------------------------------------
-    string unitIdString: descr">
+    string abilityIdString: The name of the unit as a string.">
 		<Param name="string unitIdString" />
 	</Overload>
 </KeyWord>
@@ -23690,11 +23782,11 @@ Parameters
 </KeyWord>
 <KeyWord name="UnitId2String" func="yes">
 	<Overload retVal="string" descr="
-descr
+Takes the rawcode of a unit and returns its corresponding unit name as a string.    UnitId2String('hfoo') -> "footman"
 
 Parameters
 ---------------------------------------------------------------------
-    integer unitId: descr">
+    integer unitId: The integer rawcode of the unit.">
 		<Param name="integer unitId" />
 	</Overload>
 </KeyWord>
