@@ -1,7 +1,7 @@
 definitions.add(
 	new Function(
-		"ConvertAttackType",
-		"attacktype",
+		"ConvertPlayerState",
+		"playerstate",
 		{"integer i"},
 		"\n"
 		"descr"
@@ -12,8 +12,8 @@ definitions.add(
 
 definitions.add(
 	new Function(
-		"ConvertDamageType",
-		"damagetype",
+		"ConvertPlayerScore",
+		"playerscore",
 		{"integer i"},
 		"\n"
 		"descr"
@@ -24,8 +24,104 @@ definitions.add(
 
 definitions.add(
 	new Function(
-		"ConvertWeaponType",
-		"weapontype",
+		"ConvertPlayerGameResult",
+		"playergameresult",
+		{"integer i"},
+		"\n"
+		"descr"
+		"\n\n"
+		"Parameters\n---------------------------------------------------------------------\n"
+		"    integer i: descr" 
+	));
+
+definitions.add(
+	new Function(
+		"ConvertUnitState",
+		"unitstate",
+		{"integer i"},
+		"\n"
+		"descr"
+		"\n\n"
+		"Parameters\n---------------------------------------------------------------------\n"
+		"    integer i: descr" 
+	));
+
+definitions.add(
+	new Function(
+		"ConvertAIDifficulty",
+		"aidifficulty",
+		{"integer i"},
+		"\n"
+		"descr"
+		"\n\n"
+		"Parameters\n---------------------------------------------------------------------\n"
+		"    integer i: descr" 
+	));
+
+definitions.add(
+	new Function(
+		"ConvertGameEvent",
+		"gameevent",
+		{"integer i"},
+		"\n"
+		"descr"
+		"\n\n"
+		"Parameters\n---------------------------------------------------------------------\n"
+		"    integer i: descr" 
+	));
+
+definitions.add(
+	new Function(
+		"ConvertPlayerEvent",
+		"playerevent",
+		{"integer i"},
+		"\n"
+		"descr"
+		"\n\n"
+		"Parameters\n---------------------------------------------------------------------\n"
+		"    integer i: descr" 
+	));
+
+definitions.add(
+	new Function(
+		"ConvertPlayerUnitEvent",
+		"playerunitevent",
+		{"integer i"},
+		"\n"
+		"descr"
+		"\n\n"
+		"Parameters\n---------------------------------------------------------------------\n"
+		"    integer i: descr" 
+	));
+
+definitions.add(
+	new Function(
+		"ConvertWidgetEvent",
+		"widgetevent",
+		{"integer i"},
+		"\n"
+		"descr"
+		"\n\n"
+		"Parameters\n---------------------------------------------------------------------\n"
+		"    integer i: descr" 
+	));
+
+definitions.add(
+	new Function(
+		"ConvertDialogEvent",
+		"dialogevent",
+		{"integer i"},
+		"\n"
+		"descr"
+		"\n\n"
+		"Parameters\n---------------------------------------------------------------------\n"
+		"    integer i: descr" 
+	));
+
+definitions.add(
+	new Function(
+		"ConvertUnitEvent",
+		"unitevent",
 		{"integer i"},
 		"\n"
 		"descr"
@@ -57,7 +153,7 @@ definitions.add(
 		"Parameters\n---------------------------------------------------------------------\n"
 		"    integer i: descr" 
 	));
-
+	
 definitions.add(
 	new Function(
 		"StringLength",
@@ -285,6 +381,7 @@ definitions.add(
 		"Parameters\n---------------------------------------------------------------------\n"
 		"    placement whichPlacementType: descr" 
 	));
+
 
 definitions.add(
 	new Function(
@@ -710,254 +807,6 @@ definitions.add(
 		"Parameters\n---------------------------------------------------------------------\n"
 		"    player whichPlayer: descr" "\n"
 		"    racepreference pref: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"GetPlayerName",
-		"string",
-		{"player whichPlayer"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    player whichPlayer: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"CreateTimer",
-		"timer",
-		{},
-		"\n"
-		"descr"
-	));
-
-definitions.add(
-	new Function(
-		"DestroyTimer",
-		"nothing",
-		{"timer whichTimer"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    timer whichTimer: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"TimerStart",
-		"nothing",
-		{"timer whichTimer", "real timeout", "boolean periodic", "code handlerFunc"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    timer whichTimer: descr" "\n"
-		"    real timeout: descr" "\n"
-		"    boolean periodic: descr" "\n"
-		"    code handlerFunc: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"TimerGetElapsed",
-		"real",
-		{"timer whichTimer"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    timer whichTimer: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"TimerGetRemaining",
-		"real",
-		{"timer whichTimer"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    timer whichTimer: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"TimerGetTimeout",
-		"real",
-		{"timer whichTimer"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    timer whichTimer: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"PauseTimer",
-		"nothing",
-		{"timer whichTimer"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    timer whichTimer: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ResumeTimer",
-		"nothing",
-		{"timer whichTimer"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    timer whichTimer: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"GetExpiredTimer",
-		"timer",
-		{},
-		"\n"
-		"descr"
-	));
-
-definitions.add(
-	new Function(
-		"CreateGroup",
-		"group",
-		{},
-		"\n"
-		"descr"
-	));
-
-definitions.add(
-	new Function(
-		"DestroyGroup",
-		"nothing",
-		{"group whichGroup"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    group whichGroup: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"GroupAddUnit",
-		"nothing",
-		{"group whichGroup", "unit whichUnit"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    group whichGroup: descr" "\n"
-		"    unit whichUnit: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"GroupRemoveUnit",
-		"nothing",
-		{"group whichGroup", "unit whichUnit"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    group whichGroup: descr" "\n"
-		"    unit whichUnit: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"GroupClear",
-		"nothing",
-		{"group whichGroup"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    group whichGroup: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"GroupEnumUnitsOfType",
-		"nothing",
-		{"group whichGroup", "string unitname", "boolexpr filter"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    group whichGroup: descr" "\n"
-		"    string unitname: descr" "\n"
-		"    boolexpr filter: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"GroupEnumUnitsOfPlayer",
-		"nothing",
-		{"group whichGroup", "player whichPlayer", "boolexpr filter"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    group whichGroup: descr" "\n"
-		"    player whichPlayer: descr" "\n"
-		"    boolexpr filter: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"GroupEnumUnitsOfTypeCounted",
-		"nothing",
-		{"group whichGroup", "string unitname", "boolexpr filter", "integer countLimit"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    group whichGroup: descr" "\n"
-		"    string unitname: descr" "\n"
-		"    boolexpr filter: descr" "\n"
-		"    integer countLimit: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"GroupEnumUnitsInRect",
-		"nothing",
-		{"group whichGroup", "rect r", "boolexpr filter"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    group whichGroup: descr" "\n"
-		"    rect r: descr" "\n"
-		"    boolexpr filter: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"GroupEnumUnitsInRectCounted",
-		"nothing",
-		{"group whichGroup", "rect r", "boolexpr filter", "integer countLimit"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    group whichGroup: descr" "\n"
-		"    rect r: descr" "\n"
-		"    boolexpr filter: descr" "\n"
-		"    integer countLimit: descr" 
 	));
 
 definitions.add(
@@ -3788,274 +3637,6 @@ definitions.add(
 		"\n\n"
 		"Parameters\n---------------------------------------------------------------------\n"
 		"    integer itemId: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"EnumItemsInRect",
-		"nothing",
-		{"rect r", "boolexpr filter", "code actionFunc"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    rect r: descr" "\n"
-		"    boolexpr filter: descr" "\n"
-		"    code actionFunc: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"GetItemLevel",
-		"integer",
-		{"item whichItem"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    item whichItem: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"GetItemType",
-		"itemtype",
-		{"item whichItem"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    item whichItem: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"SetItemDropID",
-		"nothing",
-		{"item whichItem", "integer unitId"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    item whichItem: descr" "\n"
-		"    integer unitId: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"GetItemName",
-		"string",
-		{"item whichItem"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    item whichItem: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"GetItemCharges",
-		"integer",
-		{"item whichItem"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    item whichItem: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"SetItemCharges",
-		"nothing",
-		{"item whichItem", "integer charges"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    item whichItem: descr" "\n"
-		"    integer charges: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"GetItemUserData",
-		"integer",
-		{"item whichItem"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    item whichItem: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"SetItemUserData",
-		"nothing",
-		{"item whichItem", "integer data"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    item whichItem: descr" "\n"
-		"    integer data: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"CreateUnit",
-		"unit",
-		{"player id", "integer unitid", "real x", "real y", "real face"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    player id: descr" "\n"
-		"    integer unitid: descr" "\n"
-		"    real x: descr" "\n"
-		"    real y: descr" "\n"
-		"    real face: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"CreateUnitByName",
-		"unit",
-		{"player whichPlayer", "string unitname", "real x", "real y", "real face"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    player whichPlayer: descr" "\n"
-		"    string unitname: descr" "\n"
-		"    real x: descr" "\n"
-		"    real y: descr" "\n"
-		"    real face: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"CreateUnitAtLoc",
-		"unit",
-		{"player id", "integer unitid", "location whichLocation", "real face"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    player id: descr" "\n"
-		"    integer unitid: descr" "\n"
-		"    location whichLocation: descr" "\n"
-		"    real face: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"CreateUnitAtLocByName",
-		"unit",
-		{"player id", "string unitname", "location whichLocation", "real face"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    player id: descr" "\n"
-		"    string unitname: descr" "\n"
-		"    location whichLocation: descr" "\n"
-		"    real face: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"CreateCorpse",
-		"unit",
-		{"player whichPlayer", "integer unitid", "real x", "real y", "real face"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    player whichPlayer: descr" "\n"
-		"    integer unitid: descr" "\n"
-		"    real x: descr" "\n"
-		"    real y: descr" "\n"
-		"    real face: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"KillUnit",
-		"nothing",
-		{"unit whichUnit"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    unit whichUnit: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"RemoveUnit",
-		"nothing",
-		{"unit whichUnit"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    unit whichUnit: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"ShowUnit",
-		"nothing",
-		{"unit whichUnit", "boolean show"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    unit whichUnit: descr" "\n"
-		"    boolean show: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"SetUnitState",
-		"nothing",
-		{"unit whichUnit", "unitstate whichUnitState", "real newVal"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    unit whichUnit: descr" "\n"
-		"    unitstate whichUnitState: descr" "\n"
-		"    real newVal: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"SetUnitX",
-		"nothing",
-		{"unit whichUnit", "real newX"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    unit whichUnit: descr" "\n"
-		"    real newX: descr" 
-	));
-
-definitions.add(
-	new Function(
-		"SetUnitY",
-		"nothing",
-		{"unit whichUnit", "real newY"},
-		"\n"
-		"descr"
-		"\n\n"
-		"Parameters\n---------------------------------------------------------------------\n"
-		"    unit whichUnit: descr" "\n"
-		"    real newY: descr" 
 	));
 
 definitions.add(

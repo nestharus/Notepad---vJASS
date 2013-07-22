@@ -567,10 +567,13 @@ void registerNatives(DefinitionDB& definitions) {
 			"attacktype",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the attacktype that corresponds to the given integer."
+			"\n\n"
+			"Attacktype Constants: ATTACK_TYPE_NORMAL, ATTACK_TYPE_MELEE, ATTACK_TYPE_PIERCE, ATTACK_TYPE_SIEGE,\n"
+			"                      ATTACK_TYPE_MAGIC,  ATTACK_TYPE_CHAOS, ATTACK_TYPE_HERO"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the attack type (see constants)." 
 		));
 
 	definitions.add(
@@ -579,10 +582,19 @@ void registerNatives(DefinitionDB& definitions) {
 			"damagetype",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the damagetype that corresponds to the given integer."
+			"\n\n"
+			"Damagetype Constants: DAMAGE_TYPE_UNKNOWN,     DAMAGE_TYPE_NORMAL,      DAMAGE_TYPE_ENHANCED,\n"
+			"                      DAMAGE_TYPE_FIRE,        DAMAGE_TYPE_COLD,        DAMAGE_TYPE_LIGHTNING,\n"
+			"                      DAMAGE_TYPE_POISON,      DAMAGE_TYPE_DISEASE,     DAMAGE_TYPE_DIVINE,\n"
+			"                      DAMAGE_TYPE_MAGIC,       DAMAGE_TYPE_SONIC,       DAMAGE_TYPE_ACID,\n"
+			"                      DAMAGE_TYPE_FORCE,       DAMAGE_TYPE_DEATH,       DAMAGE_TYPE_MIND,\n"
+			"                      DAMAGE_TYPE_PLANT,       DAMAGE_TYPE_DEFENSIVE,   DAMAGE_TYPE_DEMOLITION,\n"
+			"                      DAMAGE_TYPE_SLOW_POISON, DAMAGE_TYPE_SPIRIT_LINK, DAMAGE_TYPE_SHADOW_STRIKE,\n"
+			"                      DAMAGE_TYPE_UNIVERSAL"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the damage type (see constants)." 
 		));
 
 	definitions.add(
@@ -591,10 +603,19 @@ void registerNatives(DefinitionDB& definitions) {
 			"weapontype",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the weapontype that corresponds to the given integer."
+			"\n\n"
+			"Weapontype Constants: WEAPON_TYPE_WHOKNOWS,          WEAPON_TYPE_METAL_LIGHT_CHOP,  WEAPON_TYPE_METAL_MEDIUM_CHOP,\n"
+			"                      WEAPON_TYPE_METAL_HEAVY_CHOP,  WEAPON_TYPE_METAL_LIGHT_SLICE, WEAPON_TYPE_METAL_MEDIUM_SLICE,\n"
+			"                      WEAPON_TYPE_METAL_HEAVY_SLICE, WEAPON_TYPE_METAL_MEDIUM_BASH, WEAPON_TYPE_METAL_HEAVY_BASH,\n"
+			"                      WEAPON_TYPE_METAL_MEDIUM_STAB, WEAPON_TYPE_METAL_HEAVY_STAB,  WEAPON_TYPE_WOOD_LIGHT_SLICE,\n"
+			"                      WEAPON_TYPE_WOOD_MEDIUM_SLICE, WEAPON_TYPE_WOOD_HEAVY_SLICE,  WEAPON_TYPE_WOOD_LIGHT_BASH,\n"
+			"                      WEAPON_TYPE_WOOD_MEDIUM_BASH,  WEAPON_TYPE_WOOD_HEAVY_BASH,   WEAPON_TYPE_WOOD_LIGHT_STAB,\n"
+			"                      WEAPON_TYPE_WOOD_MEDIUM_STAB,  WEAPON_TYPE_CLAW_LIGHT_SLICE,  WEAPON_TYPE_CLAW_MEDIUM_SLICE,\n"
+			"                      WEAPON_TYPE_CLAW_HEAVY_SLICE,  WEAPON_TYPE_AXE_MEDIUM_CHOP,   WEAPON_TYPE_ROCK_HEAVY_BASH"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the weapon type (see constants)." 
 		));
 
 	definitions.add(
