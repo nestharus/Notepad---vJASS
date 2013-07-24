@@ -4,7 +4,7 @@
 #include "function.hpp"
 
 using namespace std;
-
+//find to do
 void registerNatives(DefinitionDB& definitions) {
 	definitions.add(
 		new Function(
@@ -43,10 +43,13 @@ void registerNatives(DefinitionDB& definitions) {
 			"racepreference",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the racepreference that corresponds to the given integer."
+			"\n\n"
+			"Racepreference Constants: RACE_PREF_DEMON,  RACE_PREF_HUMAN,  RACE_PREF_NIGHTELF, RACE_PREF_ORC,\n"
+			"                          RACE_PREF_RANDOM, RACE_PREF_UNDEAD, RACE_PREF_USER_SELECTABLE"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the racepreference (see constants)." 
 		));
 
 	definitions.add(
@@ -55,10 +58,12 @@ void registerNatives(DefinitionDB& definitions) {
 			"igamestate",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the igamestate that corresponds to the given integer."
+			"\n\n"
+			"IGamestate Constants: GAME_STATE_DISCONNECTED, GAME_STATE_DIVINE_INTERVENTION"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the igamestate (see constants)." 
 		));
 
 	definitions.add(
@@ -67,10 +72,12 @@ void registerNatives(DefinitionDB& definitions) {
 			"fgamestate",
 			{"integer i"},
 			"\n"
-			"descr"
+			"Returns the fgamestate that corresponds to the given integer."
+			"\n\n"
+			"FGamestate Constants: GAME_STATE_TIME_OF_DAY"
 			"\n\n"
 			"Parameters\n---------------------------------------------------------------------\n"
-			"    integer i: descr" 
+			"    integer i: The integer representation of the fgamestate (see constants)." 
 		));
 
 	definitions.add(
@@ -2375,7 +2382,7 @@ void registerNatives(DefinitionDB& definitions) {
 			"Parameters\n---------------------------------------------------------------------\n"
 			"    rect whichRect: descr" 
 		));
-
+	//to do
 	definitions.add(
 		new Function(
 			"GetRectCenterY",
